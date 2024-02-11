@@ -1,0 +1,64 @@
+/*-----------------------------------------------------------------------------------*/
+/* Responsive Styles */
+/*-----------------------------------------------------------------------------------*/
+
+/* Default Text Color */
+.header-content h1,
+.header-content p,
+.header-content .list-social li i,
+#footer span {
+  color: #000000; /* Default text color set to the same as main website */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .header-content {
+    text-align: center; /* Center align content on smaller screens */
+  }
+
+  .header-content h1 {
+    font-size: 40px; /* Reduce font size for h1 on smaller screens */
+  }
+
+  .header-content p {
+    font-size: 16px; /* Reduce font size for paragraphs on smaller screens */
+    letter-spacing: 3px; /* Adjust letter spacing for paragraphs on smaller screens */
+    margin-bottom: 20px; /* Reduce bottom margin for paragraphs on smaller screens */
+  }
+
+  .header-content .list-social li {
+    margin-right: 10px; /* Reduce margin between social media icons on smaller screens */
+  }
+
+  .header-content .list-social li i {
+    font-size: 20px; /* Reduce font size for social media icons on smaller screens */
+  }
+
+  #footer span {
+    font-size: 8px; /* Reduce font size for footer text on smaller screens */
+    padding: 5px; /* Reduce padding for footer text on smaller screens */
+  }
+
+  /* Adjust background image for smaller screens */
+  #header {
+    background-image: url("../images/mobile-bg.jpeg");
+    background-size: cover;
+  }
+}
+
+/* Additional Styles for Portrait Orientation */
+@media screen and (max-width: 768px) and (orientation: portrait) and (max-aspect-ratio: 1/1) {
+  #header {
+    background-image: url("../images/portrait-bg.jpeg");
+    background-size: cover;
+  }
+  
+  /* Change text color for portrait orientation */
+  .header-content h1,
+  .header-content p,
+  .header-content .list-social li i,
+  #footer span {
+    color: #ffffff;  /* Change text color here */
+  }
+  
+}
