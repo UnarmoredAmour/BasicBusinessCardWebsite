@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Young;Elizabeth;;Miss.;
+FN: Elizabeth Young
+ORG:My Corporation
+TITLE:Creative Director
+TEL;TYPE=WORK,VOICE:(123) 456-7890
+ADR;TYPE=WORK:;;123 Main St.;Anytown;CA;12345;USA
+EMAIL:E.young@example.com
+URL;TYPE=WORK:http://www.example.com
+X-SOCIALPROFILE;TYPE=linkedin:http://www.linkedin.com/
+X-SOCIALPROFILE;TYPE=twitter:http://www.twitter.com/
+X-SOCIALPROFILE;TYPE=instagram:http://www.instagram.com/
+END:VCARD
