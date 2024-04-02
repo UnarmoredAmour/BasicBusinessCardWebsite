@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 14.1.2//EN
+N:Young;Elizabeth;;;
+FN:Elizabeth Young
+EMAIL;type=INTERNET;type=HOME;type=pref:E.young@example.com
+TEL;type=CELL;type=VOICE;type=pref:1234567890
+ADR;type=WORK;type=pref:;;123 Main St;Anytown;CA;12345;USA
+item1.URL;type=pref:https://www.unarmoredamour.com/BasicBusinessCardWebsite/
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
